@@ -18,8 +18,8 @@ def get_info():
     utc_time_str = utc_time.strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Get the GitHub URL of the file being run and the full source code URL
-    github_file_url = 'https://github.com/username/repo/blob/main/app.py'
-    github_repo_url = 'https://github.com/username/repo'
+    github_file_url = 'https://github.com/oghuanlan-kingsley/python/blob/main/main.py'
+    github_repo_url = 'https://github.com/oghuanlan-kingsley/python'
 
     # Create the response JSON
     response = {
